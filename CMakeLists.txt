@@ -29,3 +29,7 @@ if(CMAKE_VERSION VERSION_LESS "2.8.11")
 endif()
 
 add_subdirectory(src)
+
+
+# mkdir -p build/debug 
+# cmake -E chdir build/debug cmake -G "Eclipse CDT4 - Unix Makefiles" -DCMAKE_BUILD_TYPE=debug ../../

@@ -5,7 +5,9 @@
 
 int main(int argc, char *argv[])
 {
-	cv::Mat img = cv::imread("1.jpg");
+	cv::Mat img;
+
+	img = cv::imread("1.jpg");
 
 	cv::imshow("1.jpg", img);
 

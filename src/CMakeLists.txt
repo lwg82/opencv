@@ -1,1 +1,5 @@
 add_subdirectory(hello)
+add_subdirectory(corrode)
+add_subdirectory(blur)
+add_subdirectory(canny)
+add_subdirectory(usb-camera)

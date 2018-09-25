@@ -32,4 +32,6 @@
 *.app
 
 # 
+build
 build64
+build32
