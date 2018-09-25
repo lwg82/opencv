@@ -5,6 +5,7 @@
 
 int main(int argc, char *argv[])
 {
+	cv::Point p;
 	cv::Mat img;
 
 	img = cv::imread("1.jpg");
