@@ -55,7 +55,7 @@ namespace cv
 //! @{
 
 /////////////// saturate_cast (used in image & signal processing) ///////////////////
-
+// 渗透转换
 /** @brief Template function for accurate conversion from one primitive type to another.
 
  The function saturate_cast resembles the standard C++ cast operations, such as static_cast\<T\>()

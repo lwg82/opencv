@@ -177,9 +177,9 @@ public:
     _Tp dot(const Point_& pt) const;
     //! dot product computed in double-precision arithmetics
     double ddot(const Point_& pt) const;
-    //! cross-product
+    //! cross-product 向量积
     double cross(const Point_& pt) const;
-    //! checks whether the point is inside the specified rectangle
+    //! checks whether the point is inside the specified rectangle 查询点是否在矩形中
     bool inside(const Rect_<_Tp>& r) const;
     _Tp x; //!< x coordinate of the point
     _Tp y; //!< y coordinate of the point
