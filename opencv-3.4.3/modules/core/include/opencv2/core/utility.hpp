@@ -474,7 +474,7 @@ CV_EXPORTS std::string getCPUFeaturesLine();
 CV_EXPORTS_W int getNumberOfCPUs();
 
 
-/** @brief Aligns a pointer to the specified number of bytes.
+/** @brief Aligns a pointer to the specified number of bytes. 指针地址对齐，保证是2的冪
 
 The function returns the aligned pointer of the same type as the input pointer:
 \f[\texttt{(_Tp*)(((size_t)ptr + n-1) & -n)}\f]
