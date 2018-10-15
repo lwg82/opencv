@@ -474,7 +474,7 @@ CV_EXPORTS std::string getCPUFeaturesLine();
 CV_EXPORTS_W int getNumberOfCPUs();
 
 
-/** @brief Aligns a pointer to the specified number of bytes. 指针地址对齐，保证是2的冪
+/** @brief Aligns a pointer to the specified number of bytes. 指针地址对齐，保证是2的冪次方
 
 The function returns the aligned pointer of the same type as the input pointer:
 \f[\texttt{(_Tp*)(((size_t)ptr + n-1) & -n)}\f]
@@ -487,7 +487,7 @@ template<typename _Tp> static inline _Tp* alignPtr(_Tp* ptr, int n=(int)sizeof(_
     return (_Tp*)(((size_t)ptr + n-1) & -n);
 }
 
-/** @brief Aligns a buffer size to the specified number of bytes.
+/** @brief Aligns a buffer size to the specified number of bytes. 计算缓存的大小，保证是2的冪次方
 
 The function returns the minimum number that is greater than or equal to sz and is divisible by n :
 \f[\texttt{(sz + n-1) & -n}\f]
