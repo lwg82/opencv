@@ -7,3 +7,6 @@ add_subdirectory(traits_demo)
 add_subdirectory(traits_demo2)
 add_subdirectory(draw_image)
 add_subdirectory(access_pixs)
+add_subdirectory(image-blend)
+add_subdirectory(bright-contrast)
+
